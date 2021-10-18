@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ArithmeticByGroup:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -39,19 +44,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86185\Desktop\ArithmeticByGroup(1)\src\main\java\form" />
+      <recent name="C:\Users\86185\Desktop\ArithmeticByGroup(1)\src\mainform" />
       <recent name="E:\Git\软工第二次作业\Arithmetic\ArithmeticByGroup\src\main\java\GUI" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86185\Desktop\ArithmeticByGroup\src\test" />
+      <recent name="C:\Users\86185\Desktop\ArithmeticByGroup\src\test\java" />
+      <recent name="C:\Users\86185\Desktop\ArithmeticByGroup(1)\src\main\java" />
+      <recent name="C:\Users\86185\Desktop\ArithmeticByGroup(1)\src\main" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyApplication.Main" />
+  <component name="RunManager" selected="Application.MainForm">
+    <configuration name="MainForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyApplication.MainForm" />
       <module name="ArithmeticByGroup" />
-      <option name="PROGRAM_PARAMETERS" value="-n 10000 -r 10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MyApplication.*" />
@@ -62,29 +78,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamineUtil.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ArithmeticByGroup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Util" />
-      <option name="MAIN_CLASS_NAME" value="Util.ExamineUtil" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+    <configuration default="true" type="JetRunConfigurationType">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doTest.testAnsNeg" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doTest.testAnswer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticByGroup" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="doTest" />
-      <option name="METHOD_NAME" value="testAnsNeg" />
+      <option name="METHOD_NAME" value="testAnswer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,11 +137,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doTest.testZero" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="doTest.testF" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticByGroup" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="doTest" />
-      <option name="METHOD_NAME" value="testZero" />
+      <option name="METHOD_NAME" value="testF" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,12 +149,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="doTest.testFour" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ArithmeticByGroup" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="doTest" />
+      <option name="METHOD_NAME" value="testFour" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doTest.testInto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ArithmeticByGroup" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="doTest" />
+      <option name="METHOD_NAME" value="testInto" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainForm" />
+      <item itemvalue="TestNG.doTest.testAnswer" />
+      <item itemvalue="TestNG.doTest.testF" />
+      <item itemvalue="TestNG.doTest.testFour" />
+      <item itemvalue="TestNG.doTest.testInto" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.doTest.testAnsNeg" />
-        <item itemvalue="TestNG.doTest.testZero" />
-        <item itemvalue="TestNG.ExamineUtil.test" />
+        <item itemvalue="Application.MainForm" />
+        <item itemvalue="TestNG.doTest.testInto" />
+        <item itemvalue="TestNG.doTest.testFour" />
+        <item itemvalue="TestNG.doTest.testF" />
+        <item itemvalue="TestNG.doTest.testAnswer" />
       </list>
     </recent_temporary>
   </component>
@@ -121,8 +198,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634352798855</updated>
+      <workItem from="1634443014933" duration="144000" />
+      <workItem from="1634443171256" duration="594000" />
+      <workItem from="1634446847045" duration="545000" />
+      <workItem from="1634447431082" duration="35000" />
+      <workItem from="1634447480190" duration="33000" />
+      <workItem from="1634462201206" duration="2618000" />
+      <workItem from="1634468387459" duration="17477000" />
+      <workItem from="1634487213246" duration="2676000" />
+      <workItem from="1634489949469" duration="400000" />
+      <workItem from="1634519014496" duration="1273000" />
+      <workItem from="1634532447978" duration="2504000" />
+      <workItem from="1634546199394" duration="2831000" />
+      <workItem from="1634559809408" duration="1255000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -135,5 +228,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ArithmeticByGroup$GenerateUtil.ic" NAME="GenerateUtil Coverage Results" MODIFIED="1634478006057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Util.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -11,7 +11,7 @@ import Util.GenerateUtil;
  */
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int i=args.length;
         int num,range;
         long startTime = 0,endTime = 0;

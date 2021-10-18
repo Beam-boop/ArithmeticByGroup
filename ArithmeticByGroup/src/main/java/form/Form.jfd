@@ -1,0 +1,63 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "fill,hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][]"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "NeedNum"
+				"text": "请输入生成题目个数"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 2 1,grow"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Num"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 2 1"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "showExercise"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 0 7 3,grow"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "NeedR"
+				"text": "请输入参数控制题目数值"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1 2 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "R"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 1 2 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "Creat"
+				"text": "生成"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "CreatActionPerformed", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2 2 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "Cheak"
+				"text": "检查答案"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "CheakActionPerformed", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 2 2 1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 130, 80 )
+			"size": new java.awt.Dimension( 545, 325 )
+		} )
+	}
+}

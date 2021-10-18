@@ -15,7 +15,7 @@ public class CalculateUtil {
      * @param Stack1
      * @throws Exception
      */
-    public static String doCalculation(Stack<String> Stack1) throws Exception {
+    public static String doCalculation(Stack<String> Stack1) throws NumberFormatException {
         List<String> numList = new ArrayList<>();
         Stack<String> Stack2 = new Stack();
         String operator = "";
@@ -39,11 +39,8 @@ public class CalculateUtil {
                 numList.remove(numList.size() - 2);
                 numList.remove(numList.size() - 1);
                 String result = FractionUtil.result(operator,num1,num2);
-                if(result.contains("-")){
-                    throw new Exception();
-                }else{
-                    Stack2.push(result);
-                }
+                Stack2.push(result);
+
             }
         }
         return temp;

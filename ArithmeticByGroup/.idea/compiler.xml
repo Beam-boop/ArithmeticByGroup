@@ -6,9 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ArithmeticByGroup" />
+        <module name="ArithmeticByGroup(1)" />
         <module name="ArithmeticByGroupv2" />
+        <module name="ArithmeticByGroup" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ArithmeticByGroup" options="" />
+    </option>
   </component>
 </project>

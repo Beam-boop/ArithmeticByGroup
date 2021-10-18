@@ -2,6 +2,7 @@ package Util;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.util.Vector;
 
 /**
  *
@@ -13,7 +14,7 @@ import java.io.FileWriter;
 public class FileIOUtil {
     public static void answerOutput(String[] s){
 
-        String path="src\\answers.txt";
+        String path="answers.txt";
         //存储表达式文件
 
         File file=new File(path);
@@ -35,7 +36,7 @@ public class FileIOUtil {
 
     public static void expressionOutput(String[] s){
 
-        String path="src\\exercises.txt";
+        String path="exercises.txt";
         //存储表达式文件
 
         File file=new File(path);

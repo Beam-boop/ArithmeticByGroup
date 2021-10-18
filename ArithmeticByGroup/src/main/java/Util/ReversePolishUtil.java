@@ -11,7 +11,7 @@ import java.util.Stack;
  */
 
 public class ReversePolishUtil {
-    public static String ReversePolishNotation(String str) throws Exception {
+    public static String ReversePolishNotation(String str) throws NumberFormatException {
         Stack<Character> operators = new Stack<>(); //运算符
         Stack<String> output = new Stack(); //输出结果
         String[] strings = str.split(" ");

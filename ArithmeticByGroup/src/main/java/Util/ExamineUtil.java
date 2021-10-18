@@ -14,8 +14,8 @@ public class ExamineUtil {
         BufferedWriter bw = null;
         String[] rightAnswer ;
 
-        ArrayList rightNumA = new ArrayList();
-        ArrayList wrongNumA = new ArrayList();
+        ArrayList<Integer> rightNumA = new ArrayList<Integer>();
+        ArrayList<Integer> wrongNumA = new ArrayList<>();
         int A = 0;
 
         try {
@@ -41,12 +41,12 @@ public class ExamineUtil {
             String correctNum = "";
             String wrongNum="";
 
-            Iterator it1 = rightNumA.iterator();
+            Iterator<Integer> it1 = rightNumA.iterator();
             while(it1.hasNext()){
                 correctNum+=it1.next()+"、";
             }
 
-            Iterator it2 = wrongNumA.iterator();
+            Iterator<Integer> it2 = wrongNumA.iterator();
             while(it2.hasNext()){
                 wrongNum+=it2.next()+"、";
             }
@@ -88,8 +88,6 @@ public class ExamineUtil {
                 i++;
 
             }
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -122,7 +120,7 @@ public class ExamineUtil {
             if (str.charAt(i) == '=') break;
             num++;
         }
-        return num-1 ;
+        return num - 1 ;
     }
 
 

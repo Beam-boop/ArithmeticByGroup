@@ -37,7 +37,7 @@ public class FormatUtil {
             //真分数，如果分子大于分母，可以化简为真分数
             if (molecular > denominator) {
                 //真分数：整数‘分子模分母作为分子，分母不变
-                fraction = String.valueOf(molecular / denominator) + "'" + String.valueOf(molecular % denominator) + "/" + String.valueOf(denominator);
+                fraction = molecular / denominator + "'" + molecular % denominator + "/" + denominator;
             } else {
                 fraction = molecular + "/" + denominator;
             }
@@ -51,17 +51,18 @@ public class FormatUtil {
      * @return 格式化后的结果
      * @throws Exception
      **/
-    public static String finalResult(String num) throws Exception {
+    public static String finalResult(String num) throws NumberFormatException {
         String[] nums = new String[2];
         int mole, deno;
         nums = FractionUtil.change(num);
         mole = Integer.parseInt(nums[0]);
         deno = Integer.parseInt(nums[1]);
         String finalResult = Format(mole, deno);
-        if(finalResult.contains("-")) {//部分运算结果为负数
-            throw new Exception();
-        }else {
-            return finalResult;
-        }
+//        if(finalResult.contains("-")) {//部分运算结果为负数
+//            throw new Exception();
+//        }else {
+//            return finalResult;
+//        }
+        return finalResult;
     }
 }
