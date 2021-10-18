@@ -3,8 +3,7 @@ package Util;
 import java.util.Stack;
 
 /**
- * [describe the work of this class in one sentence]
- *
+ * 生成逆波兰表达式
  * @author : [86135]
  * @version : [v1.0]
  * @createTime : [2021/10/16 10:59]

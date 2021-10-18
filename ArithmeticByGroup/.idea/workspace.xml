@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f53fb826-43ca-45e9-b705-9af9896cceb0" name="Default Changelist" comment="" />
+    <list default="true" id="f53fb826-43ca-45e9-b705-9af9896cceb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/CalculateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/CalculateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/ExamineUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/ExamineUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/FileIOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/FileIOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/FormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/FormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/FractionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/FractionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/GenerateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/GenerateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/ReversePolishUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/ReversePolishUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/doTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/doTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,10 +135,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doTest.testAnswer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoTest.testAnswer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticByGroup" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="doTest" />
+      <option name="MAIN_CLASS_NAME" value="DoTest" />
       <option name="METHOD_NAME" value="testAnswer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -137,10 +147,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doTest.testF" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoTest.testF" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticByGroup" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="doTest" />
+      <option name="MAIN_CLASS_NAME" value="DoTest" />
       <option name="METHOD_NAME" value="testF" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -149,10 +159,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doTest.testFour" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoTest.testFour" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticByGroup" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="doTest" />
+      <option name="MAIN_CLASS_NAME" value="DoTest" />
       <option name="METHOD_NAME" value="testFour" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -161,10 +171,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doTest.testInto" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoTest.testInto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticByGroup" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="doTest" />
+      <option name="MAIN_CLASS_NAME" value="DoTest" />
       <option name="METHOD_NAME" value="testInto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -175,18 +185,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainForm" />
-      <item itemvalue="TestNG.doTest.testAnswer" />
-      <item itemvalue="TestNG.doTest.testF" />
-      <item itemvalue="TestNG.doTest.testFour" />
-      <item itemvalue="TestNG.doTest.testInto" />
+      <item itemvalue="TestNG.DoTest.testAnswer" />
+      <item itemvalue="TestNG.DoTest.testF" />
+      <item itemvalue="TestNG.DoTest.testFour" />
+      <item itemvalue="TestNG.DoTest.testInto" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainForm" />
-        <item itemvalue="TestNG.doTest.testInto" />
-        <item itemvalue="TestNG.doTest.testFour" />
-        <item itemvalue="TestNG.doTest.testF" />
-        <item itemvalue="TestNG.doTest.testAnswer" />
+        <item itemvalue="TestNG.DoTest.testInto" />
+        <item itemvalue="TestNG.DoTest.testFour" />
+        <item itemvalue="TestNG.DoTest.testF" />
+        <item itemvalue="TestNG.DoTest.testAnswer" />
       </list>
     </recent_temporary>
   </component>

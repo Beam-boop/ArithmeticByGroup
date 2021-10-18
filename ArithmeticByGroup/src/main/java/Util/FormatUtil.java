@@ -16,7 +16,7 @@ public class FormatUtil {
      * @param denominator 分母
      * @return String 格式化后的分数
      */
-    public static String Format(int molecular, int denominator) {
+    public static String format(int molecular, int denominator) {
         String fraction = null;
         int min = 0;
         //分子分母最小值
@@ -52,17 +52,12 @@ public class FormatUtil {
      * @throws Exception
      **/
     public static String finalResult(String num) throws NumberFormatException {
-        String[] nums = new String[2];
+        String[] nums = new String[2]; //存储分子和分母
         int mole, deno;
         nums = FractionUtil.change(num);
-        mole = Integer.parseInt(nums[0]);
-        deno = Integer.parseInt(nums[1]);
-        String finalResult = Format(mole, deno);
-//        if(finalResult.contains("-")) {//部分运算结果为负数
-//            throw new Exception();
-//        }else {
-//            return finalResult;
-//        }
+        mole = Integer.parseInt(nums[0]);//分子
+        deno = Integer.parseInt(nums[1]);//分母
+        String finalResult = format(mole, deno);
         return finalResult;
     }
 }

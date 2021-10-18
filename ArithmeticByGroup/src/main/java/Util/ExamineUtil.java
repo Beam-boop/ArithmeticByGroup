@@ -1,8 +1,11 @@
 package Util;
 
-
-
-
+/**
+ * 进行结果的比较，生成grade.txt
+ * @author : [86135]
+ * @version : [v1.0]
+ * @createTime : [2021/10/16 10:56]
+ */
 import java.io.*;
 import java.util.*;
 

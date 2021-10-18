@@ -1,8 +1,7 @@
 package Util;
 
 /**
- * [describe the work of this class in one sentence]
- *
+ * 对分数进行运算操作
  * @author : [86135]
  * @version : [v1.0]
  * @createTime : [2021/10/16 10:58]
@@ -27,8 +26,6 @@ public class FractionUtil {
         String[] value_2 = change(nowNum_2);
         mole_2 = Integer.parseInt(value_2[0]);
         deno_2 = Integer.parseInt(value_2[1]);
-
-        int flag = 0;
 
         switch (nowOpera) {
             case "+":

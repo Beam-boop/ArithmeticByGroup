@@ -4,16 +4,13 @@
  * @createTime : [2021/10/17 11:15]
  */
 
-import MyApplication.Main;
 import Util.ExamineUtil;
 import Util.FormatUtil;
 import Util.ReversePolishUtil;
-import org.junit.jupiter.api.TestTemplate;
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
 
-public class doTest {
+public class DoTest {
 
 
 
@@ -93,7 +90,7 @@ public class doTest {
     //测试分数的约分
     @Test
     public void testReduce() {
-        System.out.println(FormatUtil.Format(-27, 243));
+        System.out.println(FormatUtil.format(-27, 243));
     }
 
 

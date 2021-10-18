@@ -108,16 +108,12 @@ public class GenerateUtil {
         return expression.toArray(new String[0]);
     }
 
-    private static String removeParentheses(String str) {
-        return str.substring(1,str.length()-1);
-    }
-
     public static String fraction(int range) {
         //molecular是分子，denominator是分母
         int molecular, denominator;
-        molecular = getRandomNum(0, range);
-        denominator = getRandomNum(1, range);
-        return FormatUtil.Format(molecular, denominator);
+        molecular = getRandomNum(0, range);//分子
+        denominator = getRandomNum(1, range);//分母
+        return FormatUtil.format(molecular, denominator);
     }
 
     public static String[] toAnswer(String[] expression) {
@@ -141,18 +137,6 @@ public class GenerateUtil {
 
     public static int getRandomNum(int min, int max) {
         return min == 0 ? new Random().nextInt(max + 1) : new Random().nextInt(min + max - 1) + min;
-    }
-
-    public static void main(String[] args) throws Exception {
-        String[] strings = GenerateUtil.createExpression(10,10000);
-//        for (String str: strings) {
-//            System.out.println(str);
-//        }
-        for (int i = 0; i < strings.length; i++) {
-            System.out.println(i+1 + " 、 " +strings[i]);
-        }
-//        System.out.println(ReversePolishUtil.ReversePolishNotation("0 - 1/2"));
-//        System.out.println(ReversePolishUtil.ReversePolishNotation("( ( 0 - 1/2 ) + 1 )"));
     }
 
 }
