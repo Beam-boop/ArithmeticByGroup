@@ -51,9 +51,6 @@ public class Form extends JFrame {
     }
 
 
-    private void initComponents() {
-    }
-
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     private JLabel NeedNum;
     private JTextField Num;
@@ -78,5 +75,69 @@ public class Form extends JFrame {
 
 
         }
+    }
+
+    private void initComponents() {
+        // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+        NeedNum = new JLabel();
+        Num = new JTextField();
+        scrollPane1 = new JScrollPane();
+        showExercise = new JTextArea();
+        NeedR = new JLabel();
+        R = new JTextField();
+        Creat = new JButton();
+        Cheak = new JButton();
+
+        //======== this ========
+        var contentPane = getContentPane();
+        contentPane.setLayout(new MigLayout(
+            "fill,hidemode 3",
+            // columns
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]" +
+            "[fill]",
+            // rows
+            "[]" +
+            "[]" +
+            "[]"));
+
+        //---- NeedNum ----
+        NeedNum.setText("\u8bf7\u8f93\u5165\u751f\u6210\u9898\u76ee\u4e2a\u6570");
+        NeedNum.setFont(new Font("Microsoft YaHei UI", Font.PLAIN, 14));
+        contentPane.add(NeedNum, "cell 0 0 2 1,grow");
+        contentPane.add(Num, "cell 2 0 2 1");
+
+        //======== scrollPane1 ========
+        {
+            scrollPane1.setViewportView(showExercise);
+        }
+        contentPane.add(scrollPane1, "cell 4 0 7 3,grow");
+
+        //---- NeedR ----
+        NeedR.setText("\u8bf7\u8f93\u5165\u53c2\u6570\u63a7\u5236\u9898\u76ee\u6570\u503c");
+        NeedR.setFont(new Font("Microsoft YaHei UI", Font.PLAIN, 14));
+        contentPane.add(NeedR, "cell 0 1 2 1");
+        contentPane.add(R, "cell 2 1 2 1");
+
+        //---- Creat ----
+        Creat.setText("\u751f\u6210");
+        Creat.addActionListener(e -> CreatActionPerformed(e));
+        contentPane.add(Creat, "cell 0 2 2 1");
+
+        //---- Cheak ----
+        Cheak.setText("\u68c0\u67e5\u7b54\u6848");
+        Cheak.addActionListener(e -> CheakActionPerformed(e));
+        contentPane.add(Cheak, "cell 2 2 2 1");
+        pack();
+        setLocationRelativeTo(getOwner());
+        // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 }
